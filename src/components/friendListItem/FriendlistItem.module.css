@@ -1,0 +1,31 @@
+.friend {
+  border: 2px solid #000;
+  border-radius: 5px;
+  width: fit-content;
+  margin: 20px 10px 20px 5px;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.friendName {
+  text-align: center;
+  font-weight: 500;
+}
+
+.status {
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.status.online {
+  color: darkgreen;
+}
+
+.status.offline {
+  color: red;
+}

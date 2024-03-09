@@ -1,0 +1,30 @@
+table {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  margin: 0 auto;
+  text-align: center;
+}
+
+thead {
+  color: #fff;
+  background-color: rgb(56, 52, 52);
+}
+
+th {
+  padding: 5px;
+  border-left: 1px solid black;
+}
+td {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 5px;
+}
+
+.itemType::first-letter {
+  text-transform: uppercase;
+}
+tr:nth-child(even) {
+  background-color: rgb(182, 215, 243);
+}
